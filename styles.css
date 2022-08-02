@@ -1,0 +1,9 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: rgb(27, 158, 235);
+    text-align: center;
+    border: 5px groove;
+    border-radius: 10px;
+  }
