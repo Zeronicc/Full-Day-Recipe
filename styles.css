@@ -1,9 +1,30 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h1 {
+.title {
     color: rgb(27, 158, 235);
     text-align: center;
     border: 5px groove;
     border-radius: 10px;
+    margin: auto;
+    box-sizing: border-box;width: 350px;
   }
+img.zucchini, img.chickengarlicpizza, img.oreocheesecake {
+  height:200px;width:225px;
+}
+
+img.zucchini {
+  
+}
+.zucchini, .oreocheesecake, .chickengarlicpizza {
+  font-size: 25px;
+  border: rgb(128, 160, 91) ridge;
+  border-radius: 4px;
+  
+}
+.zucchini, .oreocheesecake {
+  box-sizing: border-box;height: auto;width:220px
+}
+.chickengarlicpizza {
+  box-sizing: border-box;height: auto; width: 252px;
+}
