@@ -11,7 +11,7 @@ body {
     border: 5px groove;
     border-radius: 10px;
     margin: auto;
-    box-sizing: border-box;width: 350px;
+    box-sizing: border-box;width: 500px;
   }
 img.zucchini, img.chickengarlicpizza, img.oreocheesecake {
   height:200px;width:225px;
@@ -27,8 +27,8 @@ h3.zucchini, h3.oreocheesecake, h3.chickengarlicpizza {
   
 }
 .zucchini, .oreocheesecake {
-  box-sizing: border-box;height: auto;width:220px
+  box-sizing: border-box;height: auto;width:235px
 }
 .chickengarlicpizza {
-  box-sizing: border-box;height: auto; width: 252px;
+  box-sizing: border-box;height: auto; width: 272px;
 }
