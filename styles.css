@@ -1,3 +1,7 @@
+* {
+  
+
+}
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-image: url(./images/recipe-main-bg.jpg);
@@ -14,24 +18,12 @@ body {
     margin: auto;
     box-sizing: border-box;width: 520px;
 }
-
-img.zucchini, img.chickengarlicpizza, img.oreocheesecake {
-  height:200px;width:225px;
-  
-}
-
-a.zucchini, a.oreocheesecake, a.chickengarlicpizza {
-  font-size: 25px;
-  border: rgb(255, 255, 255) ridge;
-  border-radius: 4px;
-  color: white;  
+.picturealign {
+  position: relative;
   text-align: center;
+  color: white;
+}
+.border {
+
 }
 
-a.zucchini, a.oreocheesecake {
-  box-sizing: border-box;height: auto;width:235px
-}
-
-a.chickengarlicpizza {
-  box-sizing: border-box;height: auto; width: 272px;
-}
