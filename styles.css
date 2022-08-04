@@ -1,5 +1,5 @@
 * {
-  
+  box-sizing: border-box;
 
 }
 body {
@@ -18,12 +18,73 @@ body {
     margin: auto;
     box-sizing: border-box;width: 520px;
 }
-.picturealign {
-  position: relative;
-  text-align: center;
-  color: white;
+
+.border1, .border2, .border3 {
+  position: absolute;
+  border-radius: 5px;
+  border-style: groove;
+  font-weight: 550;
+
 }
-.border {
+.border1 {
+  width: 250px;
+  height: 180px;
+
+}
+
+.border2 {
+  width: 205px;
+  height: 180px;
+
+}
+
+.border3 {
+  width: 250px;
+  height: 180px;
+
+}
+
+.zucchini {
+  background: url(https://images.media-allrecipes.com/userphotos/6559927.jpg) no-repeat;
+  width: 300px;
+  height: 205px;
+  position: relative;
+  background-size: 305px;
+  margin-top: 50px;
+  margin-left: 25px;
+}
+#zucchini-link {
+  color: rgb(38, 18, 110);
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  height: auto;
+  text-decoration: none;
+  margin-top: 75px;
+  margin-left: 25px;
+}
+.chickengarlicpizza {
+  background: url(https://storcpdkenticomedia.blob.core.windows.net/media/recipemanagementsystem/media/recipe-media-files/recipes/retail/x17/2014_garlic-chicken-pizza_600x600.jpg?ext=.jpg) no-repeat;
+  width: 270px;
+  height: 235px;
+  position: relative;
+  background-size: 245px;
+  margin-left: auto;
+
+}
+#chickengarlicpizza-link {
+  color: rgb(2, 2, 102);
+  padding: 9px;
+  text-align: center;
+  font-size: 18px;
+  height: auto;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 22px;
+  margin-top: 85px;
+}
+
+.oreocheesecake {
 
 }
 
