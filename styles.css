@@ -17,6 +17,7 @@ body {
     border-radius: 10px;
     margin: auto;
     box-sizing: border-box;width: 520px;
+    
 }
 
 .border1, .border2, .border3 {
@@ -24,6 +25,8 @@ body {
   border-radius: 5px;
   border-style: groove;
   font-weight: 550;
+  color: rgb(255, 255, 255);
+
 
 }
 .border1 {
@@ -54,7 +57,6 @@ body {
   margin-left: 25px;
 }
 #zucchini-link {
-  color: rgb(38, 18, 110);
   padding: 10px;
   text-align: center;
   font-size: 25px;
@@ -73,7 +75,6 @@ body {
 
 }
 #chickengarlicpizza-link {
-  color: rgb(2, 2, 102);
   padding: 9px;
   text-align: center;
   font-size: 18px;
