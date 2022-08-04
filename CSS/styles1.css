@@ -20,6 +20,10 @@ body {
     margin-top: 20px;
     
 }
+a:hover {
+  color: black;
+}
+
 
 .border1, .border2, .border3 {
   position: absolute;
