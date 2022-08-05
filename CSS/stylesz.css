@@ -14,13 +14,18 @@ html{
     border: 5px groove;
     border-radius: 10px;
     width: fit-content;
-    margin-left: 217px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+ 
 }
 #image-align {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    margin-top: 25px;
+   
 }
 .imagez {
     width:385px;height:255px;
@@ -30,12 +35,15 @@ html{
 
 }
 button {
-    position: absolute;
+    position: relative;
     margin-top: 9px;
     margin-left: 28px;
     border: 10px white groove;
 }
-h2, h3 {
+button:hover {
+    color: grey;
+}
+h2, h3, h5, strong {
     text-decoration: underline rgba(255, 255, 255, 0.733);
 }
 h2{ 

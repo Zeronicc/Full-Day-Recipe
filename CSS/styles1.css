@@ -16,13 +16,21 @@ body {
     border: 5px groove;
     border-radius: 10px;
     margin: auto;
-    box-sizing: border-box;width: 560px;
-    margin-top: 25px;
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 35px;
     
 }
+a:visited {
+  color: gray;
+}
 a:hover {
   color: black;
+}
+a:active {
+  color: antiquewhite;
 }
 
 .border1, .border2, .border3 {
@@ -41,8 +49,10 @@ a:hover {
   height: 205px;
   position: relative;
   background-size: 305px;
-  margin-top: 75px;
-  margin-left: 25px;
+  margin-top: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #zucchini-link {
   padding: 10px;
@@ -56,11 +66,13 @@ a:hover {
 }
 .chickengarlicpizza {
   background: url(https://storcpdkenticomedia.blob.core.windows.net/media/recipemanagementsystem/media/recipe-media-files/recipes/retail/x17/2014_garlic-chicken-pizza_600x600.jpg?ext=.jpg) no-repeat;
-  width: 300px;
+  width: 245px;
   height: 235px;
   position: relative;
   background-size: 245px;
-margin-left: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 25px;
   margin-top: 25px;
 
@@ -79,12 +91,13 @@ margin-left: 25px;
 
 .oreocheesecake {
   background: url(https://sugarspunrun.com/wp-content/uploads/2022/05/Oreo-Cheesecake-Recipe-1-of-1-2.jpg) no-repeat;
-  width: 270px;
+  width: 265px;
   height: 265px;
   position: relative;
   background-size: 265px;
-  margin-left: 25px;
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #oreocheesecake-link {
   padding: 9px;
@@ -93,7 +106,7 @@ margin-left: 25px;
   height: auto;
   text-decoration: none;
   text-align: center;
-  margin-left: 16px;
+  margin-left: 20px;
   margin-top: 90px;
   width: 200px;
 }
