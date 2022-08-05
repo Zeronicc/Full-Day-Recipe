@@ -1,0 +1,15 @@
+
+html{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../images/recipe-main-bg.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    color: white;
+
+}button {
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 28px;
+    border: 10px white groove;
+}
