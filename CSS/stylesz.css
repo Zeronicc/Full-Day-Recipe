@@ -15,9 +15,10 @@ html{
     border-radius: 10px;
     width: fit-content;
     display: block;
-    margin-left: auto;
+    margin-left: 0px;
     margin-right: auto;
-    margin: auto;
+    flex: auto;
+    
  
 }
 #image-align {
@@ -34,11 +35,19 @@ html{
 .container-1 .box-1 {
 
 }
-button {
+.container-button {
+    display: flex;
+    justify-content: flex-start;
+}
+#button {
     position: relative;
     margin-top: 9px;
-    margin-left: 28px;
+    margin-left: 5px;
     border: 10px white groove;
+    display: inline-block;
+    width: auto;
+    height: fit-content;
+    margin-right: 3px;
 }
 button:hover {
     color: grey;
