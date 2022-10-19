@@ -18,8 +18,8 @@ html{
     margin-left: auto;
     margin-right: auto;
     text-decoration: none;
-    
- 
+    padding: 1px 10px;
+    margin-top: 25px;
 }
 a {
     color: white;
@@ -36,17 +36,38 @@ a:hover {
 }
 .imagez {
     width:385px;height:255px;
-    border: 10px white groove;
+    border: 7px white groove;
+    border-radius: 15px;
 }
 .container-1 {
     margin: auto;
     text-align: left;
     margin-top: 35px;
     max-width: 750px;
+    background-color: #070E19;
+    padding: 10px 30px;
+    border: white solid 2px;
+    border-radius: 25px;
+    display: flex;
+    flex-flow: column;
+}
+ .nutrition-container{
+    gap: 5px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.serving{
+    font-weight: 600;
+}
+
+.nutrition-info{
+    justify-content: center;
+    display: flex;
 }
 
 
-h2, h3, h5, strong {
+h2, h3, h5, .serving {
     text-decoration: underline rgba(255, 255, 255, 0.733);
 }
 h2{ 
