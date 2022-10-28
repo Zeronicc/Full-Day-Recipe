@@ -51,9 +51,8 @@ h2{
 }
 
 .container-1 {
-    margin: auto;
+    margin: 35px auto;
     text-align: left;
-    margin-top: 35px;
     max-width: 700px;
     background-color: #070E19;
     padding: 10px 30px;
