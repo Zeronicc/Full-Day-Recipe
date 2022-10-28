@@ -9,17 +9,16 @@ body {
   background-color: black;
 }
 
-
 #title {
-    color: rgb(255, 255, 255); -webkit-text-stroke: 1px rgb(0, 1, 54);
-    text-align: center;
-    border: 5px solid rgb(129, 129, 129);
-    border-radius: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 39px;
-    padding: 2px 10px;
+  color: rgb(255, 255, 255); -webkit-text-stroke: 1px rgb(0, 1, 54);
+  text-align: center;
+  border: 5px solid rgb(129, 129, 129);
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 39px;
+  padding: 2px 10px;
 }
 a:visited {
   color: gray;
@@ -58,22 +57,19 @@ a:active {
   justify-content: center;
   border-radius: 15px;
 }
-
-.zucchini {
-  background: url(https://images.media-allrecipes.com/userphotos/6559927.jpg) no-repeat;
+.zucchini, .oreocheesecake{
   width: 265px;
   height: 235px;
+}
+.zucchini {
+  background: url(https://images.media-allrecipes.com/userphotos/6559927.jpg) no-repeat;
   background-position: center;
   background-size: 360px;
 }
 
-#zucchini-link {
-  padding: 10px;
-  text-align: center;
-  font-size: 25px;
-  height: auto;
-  width: 200px;
-  text-decoration: none;
+.oreocheesecake {
+  background: url(https://sugarspunrun.com/wp-content/uploads/2022/05/Oreo-Cheesecake-Recipe-1-of-1-2.jpg) no-repeat;
+  background-size: 265px;
 }
 
 .chickengarlicpizza {
@@ -81,32 +77,13 @@ a:active {
   width: 240px;
   height: 235px;
   background-size: 240px;
-  background-position: center;
 }
 
-#chickengarlicpizza-link {
-  padding: 9px;
-  text-align: center;
-  font-size: 24px;
-  height: auto;
-  width: 175px;
+#zucchini-link, #oreocheesecake-link, #chickengarlicpizza-link{
   text-decoration: none;
   text-align: center;
+  font-size: 30px;
 }
 
-.oreocheesecake {
-  background: url(https://sugarspunrun.com/wp-content/uploads/2022/05/Oreo-Cheesecake-Recipe-1-of-1-2.jpg) no-repeat;
-  width: 265px;
-  height: 235px;
-  background-size: 265px;
-}
-
-#oreocheesecake-link {
-  padding: 9px;
-  text-align: center;
-  font-size: 25px;
-  height: auto;
-  text-decoration: none;
-  text-align: center;
-  width: 200px;
-}
+#zucchini-link, #oreocheesecake-link {width: 200px;}
+#chickengarlicpizza-link {width: 175px;}
