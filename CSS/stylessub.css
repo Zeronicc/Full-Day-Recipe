@@ -9,7 +9,7 @@ html{
 
 #title {
     text-align: center;
-    -webkit-text-stroke: 1px rgb(0, 1, 54);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
     font-size: 35px;
     border: 4px groove;
     border-radius: 10px;
